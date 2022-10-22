@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "composite": true,
+    "strict": true,
     "allowJs": true,
     "outDir": "./lib",
     "rootDir": ".",

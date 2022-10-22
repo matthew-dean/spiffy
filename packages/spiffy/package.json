@@ -5,8 +5,7 @@
   "engines": {
     "node": ">=14"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/matthew-dean/spiffy.git"
@@ -18,8 +17,10 @@
   },
   "homepage": "https://github.com/matthew-dean/spiffy#readme",
   "dependencies": {
+    "lightningcss": "^1.16.0"
   },
-  "devDependencies": {
+  "peerDependencies": {
+    "typescript": ">=4.5.5"
   },
   "keywords": [
     "css",
