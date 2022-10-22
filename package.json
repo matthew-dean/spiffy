@@ -44,7 +44,7 @@
     "url": "git+https://github.com/matthew-dean/spiffy.git"
   },
   "author": "Matthew Dean <matthew-dean@users.noreply.github.com>",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/matthew-dean/spiffy/issues"
   },

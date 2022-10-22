@@ -1,0 +1,31 @@
+{
+  "name": "spiffy",
+  "version": "0.0.1",
+  "description": "Spiffy CSS",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthew-dean/spiffy.git"
+  },
+  "author": "Matthew Dean <matthew-dean@users.noreply.github.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/matthew-dean/spiffy/issues"
+  },
+  "homepage": "https://github.com/matthew-dean/spiffy#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "keywords": [
+    "css",
+    "preprocessor",
+    "pre-processor",
+    "css-in-js",
+    "front-end"
+  ]
+}
