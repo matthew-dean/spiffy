@@ -1,0 +1,10 @@
+@import "test.less";
+
+@include ns.mixin();
+
+@--foo: value;
+@--foo: someothervalue;
+
+@--ns {
+    @mixin mixin(a) when ($a = 'b') {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@jesscss/fns",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.8-alpha.8",
+  "description": "Jess functions module",
+  "main": "lib/index",
+  "types": "lib/index",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "ci": "yarn build && yarn test",
+    "prepublishOnly": "npm run build",
+    "build": "yarn clean && yarn compile",
+    "clean": "shx rm -rf ./lib tsconfig.tsbuildinfo",
+    "compile": "tsc -b tsconfig.json",
+    "test": "ts-mocha test/**/*.ts"
+  },
+  "author": "Matthew Dean",
+  "license": "MIT",
+  "dependencies": {
+    "jess": "^1.0.8-alpha.8",
+    "lodash": "^4.17.20"
+  }
+}
