@@ -1,3 +1,3 @@
-import { css } from 'spiffy'
+import { css } from '../src'
 
 export const foo = css``

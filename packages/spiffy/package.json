@@ -17,10 +17,18 @@
   },
   "homepage": "https://github.com/matthew-dean/spiffy#readme",
   "dependencies": {
-    "lightningcss": "^1.16.0"
+    "lightningcss": "^1.16.0",
+    "reflect-metadata": "^0.1.13",
+    "typescript-rtti": "^0.8.2"
   },
   "peerDependencies": {
     "typescript": ">=4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.3",
+    "ts-node": "^10.9.1",
+    "ttypescript": "^1.5.13",
+    "typescript": "^4.8.4"
   },
   "keywords": [
     "css",

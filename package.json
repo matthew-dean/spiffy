@@ -4,6 +4,10 @@
   "private": true,
   "description": "The Spiffy Monorepo",
   "main": "rollup.config.js",
+  "scripts": {
+    "lint:fix": "eslint --fix '**/*.{js,ts,json}'",
+    "lint": "eslint '**/*.{js,ts,json}'"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^23.0.2",
     "@rollup/plugin-node-resolve": "^15.0.1",
@@ -35,9 +39,12 @@
     "tslib": "^2.4.0",
     "typescript": "^4.8.4"
   },
-  "scripts": {
-    "lint:fix": "eslint --fix '**/*.{js,ts,json}'",
-    "lint": "eslint '**/*.{js,ts,json}'"
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "typescript": "^4.8.4"
+      }
+    }
   },
   "repository": {
     "type": "git",
