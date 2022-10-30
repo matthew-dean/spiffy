@@ -174,6 +174,7 @@ importers:
   packages/spiffy:
     specifiers:
       '@types/node': ^18.11.3
+      csstype: ^3.1.1
       lightningcss: ^1.16.0
       reflect-metadata: ^0.1.13
       ts-node: ^10.9.1
@@ -181,6 +182,7 @@ importers:
       typescript: ^4.8.4
       typescript-rtti: ^0.8.2
     dependencies:
+      csstype: 3.1.1
       lightningcss: 1.16.0
       reflect-metadata: 0.1.13
       typescript-rtti: 0.8.2_tjkpoysld524rvy7hjviaz6rje
@@ -15472,7 +15474,7 @@ packages:
       '@swc/core': '>=1.2.50'
       '@swc/wasm': '>=1.2.50'
       '@types/node': '*'
-      typescript: '>=2.7'
+      typescript: '>=2.7 || ^4.8.4'
     peerDependenciesMeta:
       '@swc/core':
         optional: true
@@ -15555,7 +15557,7 @@ packages:
     hasBin: true
     peerDependencies:
       ts-node: '>=8.0.2'
-      typescript: '>=3.2.2'
+      typescript: '>=3.2.2 || ^4.8.4'
     dependencies:
       resolve: 1.22.1
       ts-node: 10.9.1_lw7q66ikwuedwcorwkk4v6trsa
@@ -15623,7 +15625,7 @@ packages:
     engines: {node: '>=10'}
     peerDependencies:
       reflect-metadata: ^0.1.13
-      typescript: '4.6'
+      typescript: 4.6 || ^4.8.4
     dependencies:
       reflect-metadata: 0.1.13
       typescript: 4.8.4
